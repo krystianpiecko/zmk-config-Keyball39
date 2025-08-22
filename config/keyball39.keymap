@@ -59,6 +59,40 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        LEFT_CLICK {
+            bindings = <&mkp LCLK>;
+            key-positions = <15 16>;
+        };
+
+        RIGHT_CLICK {
+            bindings = <&mkp RCLK>;
+            key-positions = <16 17>;
+        };
+
+        SCROLL_UP {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <5 6>;
+        };
+
+        SCROLL_DOWN {
+            bindings = <&msc SCRL_DOWN>;
+            key-positions = <25 26>;
+        };
+
+        SEMI_COLON {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <19 18 17>;
+        };
+
+        COLON_ {
+            bindings = <&kp COLON>;
+            key-positions = <16 17 18 19>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
