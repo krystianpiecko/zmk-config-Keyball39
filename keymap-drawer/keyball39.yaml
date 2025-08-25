@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - S
   - {t: D, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F, h: '$$mdi:apple-keyboard-command$$'}
   - G
@@ -125,9 +125,9 @@ combos:
   k: $$mdi:mouse-left-click-outline$$
 - p: [16, 17]
   k: $$mdi:mouse-right-click-outline$$
-- p: [5, 6]
-  k: $$mdi:pan-up$$
 - p: [25, 26]
+  k: $$mdi:pan-up$$
+- p: [5, 6]
   k: $$mdi:pan-down$$
 - p: [19, 18, 17]
   k: {t: ;, s: ':'}
