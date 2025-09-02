@@ -26,6 +26,8 @@
 
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
 
+&msc { acceleration-exponent = <1>; };
+
 / {
     // custom shift using mod-morph 
 
